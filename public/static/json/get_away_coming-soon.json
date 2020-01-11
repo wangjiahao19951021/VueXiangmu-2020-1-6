@@ -1,0 +1,176 @@
+{
+	"status": 0,
+	"data": {
+		"films": [{
+			"filmId": 4832,
+			"name": "宠爱",
+			"poster": "https://pic.maizuo.com/usr/movie/7af15ad3ea14176d0557c8294c69d20e.jpg",
+			"actors": [{
+				"name": "杨子",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/214f1430a1f53850765a99776835c920.jpg"
+			}],
+			"director": "杨子",
+			"category": "爱情|喜剧",
+			"synopsis": "与孤单相伴的人们，生活因宠物改变，继而发生的一系列欢乐甜蜜的暖心故事。",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "中国大陆",
+			"language": "汉语普通话",
+			"videoId": "",
+			"premiereAt": 1575158400,
+			"timeType": 2,
+			"runtime": 100,
+			"grade": "7.8",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 4991,
+			"name": "误杀",
+			"poster": "https://pic.maizuo.com/usr/movie/cab3e17b2d0e7731e04c6e76c0e2866f.jpg",
+			"actors": [{
+				"name": "柯汶利",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/c09f29d99ee228ee2ff9f6643412f53b.jpg"
+			}, {
+				"name": "肖央",
+				"role": "李维杰",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/3ce5eeb8f056391d655c2d0a6ec35675.jpg"
+			}, {
+				"name": "谭卓",
+				"role": "阿玉",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/91384e9861e3cc355394fd119fd656d0.jpg"
+			}, {
+				"name": "陈冲",
+				"role": "拉韫",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/c83f0f3160cc9dae2f1c927b0ebd32dc.jpg"
+			}, {
+				"name": "姜皓文",
+				"role": "都彭",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/81da96af324b1b95074fce77f3162d6a.jpg"
+			}],
+			"director": "柯汶利",
+			"category": "剧情|犯罪",
+			"synopsis": "李维杰（肖央 饰）与妻子阿玉（谭卓 饰）打拼多年，膝下育有两个女儿。一个雨夜，一场意外，打破了这个家庭的宁静。而李维杰作为一个父亲，为了保全自己的家人，他不顾一切地决定瞒天过海……",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "中国大陆",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1576195200,
+			"timeType": 3,
+			"runtime": 112,
+			"grade": "7.9",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 4920,
+			"name": " 叶问4：完结篇",
+			"poster": "https://pic.maizuo.com/usr/movie/c14daaf24fc50c767f5c067f2c05316b.jpg",
+			"actors": [{
+				"name": "叶伟信",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/0e3ed2b5d2897d3fd2423176468ffce9.jpg"
+			}, {
+				"name": "甄子丹",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/376e28f22c81a33c0629d6cd43364c18.jpg"
+			}, {
+				"name": "陈国坤",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/e7ce478afd0a9fdfe0c7c59331d9cf23.jpg"
+			}, {
+				"name": "吴樾",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/30da6c2351f1d46b129ca0b2fcf8b5e3.jpg"
+			}, {
+				"name": "斯科特·阿金斯",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/660b52b44aabd58c18866700420f0daa.jpg"
+			}],
+			"director": "叶伟信",
+			"category": "动作|传记|历史",
+			"synopsis": "因故来到美国唐人街的叶问，意外卷入一场当地军方势力与华人武馆的纠纷，面对日益猖狂的民族歧视与压迫，叶问挺身而出，在美国海军陆战队军营拼死一战，以正宗咏春，向世界证明了中国功夫。",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "中国香港",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1576800000,
+			"timeType": 3,
+			"runtime": 0,
+			"grade": "7.2",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 4746,
+			"name": "为家而战",
+			"poster": "https://pic.maizuo.com/usr/movie/f5910fc4d67786391b9a66bc457d3161.jpg",
+			"actors": [{
+				"name": "斯戴芬·莫昌特",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/d9c0d710af78803113b9e62c4d50ae73.jpg"
+			}, {
+				"name": "尼克·弗罗斯特",
+				"role": "Ricky Knight",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/b334408fd692ced92b204b90f5b26265.jpg"
+			}, {
+				"name": "琳娜·海蒂",
+				"role": "Julia Knight",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/633e9989e8ab08443a2107a653b23152.jpg"
+			}, {
+				"name": "道恩·强森",
+				"role": "Dwayne",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/2eca86adede094bc1d5e6019b3e83a3c.jpg"
+			}, {
+				"name": "弗洛伦斯·皮尤",
+				"role": "Raya Knight",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/55d79b978ec9f89988950f58eee69b8a.jpg"
+			}, {
+				"name": "杰克·劳登",
+				"role": "Zak Knight",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/2ed37a47ed38c127171acb3faa704755.jpg"
+			}],
+			"director": "斯戴芬·莫",
+			"category": "剧情|喜剧|传记|运动",
+			"synopsis": "巨石强森的新片《为家而战》改编自英国最年轻的女摔角冠军佩吉的真实故事。佩吉（佛罗伦斯·珀 饰）出生于摔角世家，尽管沉迷摔角的一家人被许多人认为是“怪胎家庭”，但与哥哥（杰克·劳登 饰）一起加入WWE（世界摔角娱乐）成为最顶级的摔角手一直是佩吉的梦想。哥哥的意外落选， 独自被选中进入WWE训练营的佩吉，在同是WWE摔角手的巨石强森的帮助下，发起了为家人“正名”的冠军争夺。值得注意的是，同样来自摔角世家的巨石强森在片中可谓真正的本色演出。",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "美国",
+			"language": "英语",
+			"videoId": "XNDIyNTI4OTEyOA==",
+			"premiereAt": 1563494400,
+			"timeType": 3,
+			"runtime": 108,
+			"grade": "7.8",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}],
+		"total": 48
+	},
+	"msg": "ok"
+}

@@ -1,32 +1,30 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <app-header></app-header>
+    <home></home>
   </div>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+import AppHeader from  "./components/commons/header/app-header"
+import Home from  "./components/pages/home/home"
+export default {
+  name: "app",
+  components: {
+    AppHeader,  
+    Home
   }
 }
+</script>
+
+
+<style lang="scss" scoped>
+// scoped 属性是一个布尔属性。
+// 如果使用该属性，则样式仅仅应用到 style 元素的父元素及其子元素。
+// 局部样式，只作用于当前组件
+
+// $base-color: red;
+// #app{
+//   color: $base-color;
+// }
+
 </style>

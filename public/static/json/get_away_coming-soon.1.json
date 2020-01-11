@@ -1,0 +1,425 @@
+{
+	"status": 0,
+	"data": {
+		"films": [{
+			"filmId": 4832,
+			"name": "宠爱",
+			"poster": "https://pic.maizuo.com/usr/movie/7af15ad3ea14176d0557c8294c69d20e.jpg",
+			"actors": [{
+				"name": "杨子",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/214f1430a1f53850765a99776835c920.jpg"
+			}],
+			"director": "杨子",
+			"category": "爱情|喜剧",
+			"synopsis": "与孤单相伴的人们，生活因宠物改变，继而发生的一系列欢乐甜蜜的暖心故事。",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "中国大陆",
+			"language": "汉语普通话",
+			"videoId": "",
+			"premiereAt": 1575158400,
+			"timeType": 2,
+			"runtime": 100,
+			"grade": "7.8",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 4991,
+			"name": "误杀",
+			"poster": "https://pic.maizuo.com/usr/movie/cab3e17b2d0e7731e04c6e76c0e2866f.jpg",
+			"actors": [{
+				"name": "柯汶利",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/c09f29d99ee228ee2ff9f6643412f53b.jpg"
+			}, {
+				"name": "肖央",
+				"role": "李维杰",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/3ce5eeb8f056391d655c2d0a6ec35675.jpg"
+			}, {
+				"name": "谭卓",
+				"role": "阿玉",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/91384e9861e3cc355394fd119fd656d0.jpg"
+			}, {
+				"name": "陈冲",
+				"role": "拉韫",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/c83f0f3160cc9dae2f1c927b0ebd32dc.jpg"
+			}, {
+				"name": "姜皓文",
+				"role": "都彭",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/81da96af324b1b95074fce77f3162d6a.jpg"
+			}],
+			"director": "柯汶利",
+			"category": "剧情|犯罪",
+			"synopsis": "李维杰（肖央 饰）与妻子阿玉（谭卓 饰）打拼多年，膝下育有两个女儿。一个雨夜，一场意外，打破了这个家庭的宁静。而李维杰作为一个父亲，为了保全自己的家人，他不顾一切地决定瞒天过海……",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "中国大陆",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1576195200,
+			"timeType": 3,
+			"runtime": 112,
+			"grade": "7.9",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 4920,
+			"name": " 叶问4：完结篇",
+			"poster": "https://pic.maizuo.com/usr/movie/c14daaf24fc50c767f5c067f2c05316b.jpg",
+			"actors": [{
+				"name": "叶伟信",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/0e3ed2b5d2897d3fd2423176468ffce9.jpg"
+			}, {
+				"name": "甄子丹",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/376e28f22c81a33c0629d6cd43364c18.jpg"
+			}, {
+				"name": "陈国坤",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/e7ce478afd0a9fdfe0c7c59331d9cf23.jpg"
+			}, {
+				"name": "吴樾",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/30da6c2351f1d46b129ca0b2fcf8b5e3.jpg"
+			}, {
+				"name": "斯科特·阿金斯",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/660b52b44aabd58c18866700420f0daa.jpg"
+			}],
+			"director": "叶伟信",
+			"category": "动作|传记|历史",
+			"synopsis": "因故来到美国唐人街的叶问，意外卷入一场当地军方势力与华人武馆的纠纷，面对日益猖狂的民族歧视与压迫，叶问挺身而出，在美国海军陆战队军营拼死一战，以正宗咏春，向世界证明了中国功夫。",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "中国香港",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1576800000,
+			"timeType": 3,
+			"runtime": 0,
+			"grade": "7.2",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 4746,
+			"name": "为家而战",
+			"poster": "https://pic.maizuo.com/usr/movie/f5910fc4d67786391b9a66bc457d3161.jpg",
+			"actors": [{
+				"name": "斯戴芬·莫昌特",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/d9c0d710af78803113b9e62c4d50ae73.jpg"
+			}, {
+				"name": "尼克·弗罗斯特",
+				"role": "Ricky Knight",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/b334408fd692ced92b204b90f5b26265.jpg"
+			}, {
+				"name": "琳娜·海蒂",
+				"role": "Julia Knight",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/633e9989e8ab08443a2107a653b23152.jpg"
+			}, {
+				"name": "道恩·强森",
+				"role": "Dwayne",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/2eca86adede094bc1d5e6019b3e83a3c.jpg"
+			}, {
+				"name": "弗洛伦斯·皮尤",
+				"role": "Raya Knight",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/55d79b978ec9f89988950f58eee69b8a.jpg"
+			}, {
+				"name": "杰克·劳登",
+				"role": "Zak Knight",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/2ed37a47ed38c127171acb3faa704755.jpg"
+			}],
+			"director": "斯戴芬·莫",
+			"category": "剧情|喜剧|传记|运动",
+			"synopsis": "巨石强森的新片《为家而战》改编自英国最年轻的女摔角冠军佩吉的真实故事。佩吉（佛罗伦斯·珀 饰）出生于摔角世家，尽管沉迷摔角的一家人被许多人认为是“怪胎家庭”，但与哥哥（杰克·劳登 饰）一起加入WWE（世界摔角娱乐）成为最顶级的摔角手一直是佩吉的梦想。哥哥的意外落选， 独自被选中进入WWE训练营的佩吉，在同是WWE摔角手的巨石强森的帮助下，发起了为家人“正名”的冠军争夺。值得注意的是，同样来自摔角世家的巨石强森在片中可谓真正的本色演出。",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "美国",
+			"language": "英语",
+			"videoId": "XNDIyNTI4OTEyOA==",
+			"premiereAt": 1563494400,
+			"timeType": 3,
+			"runtime": 108,
+			"grade": "7.8",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 5028,
+			"name": "紫罗兰永恒花园外传：永远与自动手记人偶",
+			"poster": "https://pic.maizuo.com/usr/movie/37d616c795a370232728213163d25a74.jpg",
+			"actors": [{
+				"name": "藤田春香",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/9ea3220b22cd6367c5bbaf54d4b43c0a.jpg"
+			}, {
+				"name": "茅原实里",
+				"role": "Erica Brown (voice)",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/12c4ab3f65e2c31a86e3ad614c014027.jpg"
+			}, {
+				"name": "石川由依",
+				"role": "Violet Evergarden (voice)",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/92a4335893d865f3ce509860381d599b.jpg"
+			}, {
+				"name": "子安武人",
+				"role": "Claudia Hodgins (voice)",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/59f13275c3a20303d6c6e55f85de481f.jpg"
+			}, {
+				"name": "内山昂辉",
+				"role": "Benedict Bleu (voice)",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/6b062eff04f05f89e51e3d5700a18bda.jpg"
+			}],
+			"director": "藤田春香",
+			"category": "剧情|动画",
+			"synopsis": "作为“战争机器”长大的女主人公薇尔莉特·伊芙加登（石川由依 配音），在战争中失去双臂，并与收养她的少佐分离，在装上义肢后，成为邮政公司一名从事代写书信工作的 “自动手记人偶”。在车马缓慢、只能以信件传递感情的年代里，“自动手记人偶”通过与委托人接触交流，代写书信，以优美准确的文字传递着人们最为真挚的感情。外传的故事中，薇尔莉特·伊芙加登接到了一桩特殊的委托工作……",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "日本",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1578614400,
+			"timeType": 3,
+			"runtime": 91,
+			"grade": "7",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 5030,
+			"name": "鲨海逃生",
+			"poster": "https://pic.maizuo.com/usr/movie/a2eaf78110bc436155fb5f9cda010e94.jpg",
+			"actors": [{
+				"name": "约翰内斯·罗伯茨",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/6ce81635a5f401bb96510aa132537a25.jpg"
+			}, {
+				"name": "尼娅·朗",
+				"role": "Jennifer",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/131a016e90bc15bdc6e464f8ff05b63e.jpg"
+			}, {
+				"name": "约翰·考伯特",
+				"role": "Grant",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/69ccdcbc9811e2e3853490edb7dd325d.jpg"
+			}, {
+				"name": "苏菲·奈丽丝",
+				"role": "Mia",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/46a2223de5e5b9fc56baae89ead05374.jpg"
+			}, {
+				"name": "Corinne Foxx",
+				"role": "Sasha",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/24c1f0f7df38cf692f5fd9b14e3bbcac.jpg"
+			}],
+			"director": "约翰内斯·罗伯茨",
+			"category": "冒险|灾难|剧情",
+			"synopsis": "《鲨海47：猛鲨出笼》(47 Meters Down-Uncaged)，演员阵容：史泰龙女儿Sistine Stallone和福克斯的女儿Corinne Foxx献出表演首秀，John Corbett(《欲望都市》)、Nia Long(《嘻哈帝国》)、Sophie Nelisse(《偷书贼》)、Brianne Tju(剧版《惊声尖叫》)、Davi Santos(《宝丽来》)、Khylin Rhambo(《少狼》)也出演，定档2019年6月28日北美上映。 讲述4个青少年潜水进入了一个失落的水下城市，随后在城里的迷宫一般的幽闭水下洞穴中，他们陷入极其恐怖的境地——嗜血鲨鱼的领地。导演Johannes Roberts回归，本周在多米尼加开拍。",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "英国",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1578614400,
+			"timeType": 3,
+			"runtime": 89,
+			"grade": "7",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 4808,
+			"name": "动物特工局",
+			"poster": "https://pic.maizuo.com/usr/movie/c68007a119a159adf3eb3e560e79d14a.jpg",
+			"actors": [{
+				"name": "纪约姆·伊弗奈",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/dc91fe2c26360cb42e23733dd4f128a1.jpg"
+			}, {
+				"name": "张志一",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/1d9491765bd009334c94ca4e6101414c.jpg"
+			}, {
+				"name": "姜广涛",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/ea10b8dd26ffd912187d54ed0ece1af8.jpg"
+			}, {
+				"name": "马正阳",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/2972948e0ec7a77291f5bdd8929b72c6.jpg"
+			}],
+			"director": "张志一|纪约姆·伊弗奈",
+			"category": "喜剧|动画|冒险",
+			"synopsis": "谁说猫鼠不能做朋友？谁说损友不能一起拯救世界？在一个多种动物组成的现代化世界里，动物特工局精英张大威（猫）在因缘际会下结识废柴技术宅阿丘（鼠），当傲娇成性、嘴硬心软的张大威遇见幽默呆萌、重情重义的阿丘，会发生什么欢乐逗趣的故事？这对被卷入一场惊天阴谋的猫鼠搭档，在破案的途中联合其他伙伴各显神通，斗智斗勇。随着一个名叫“寒冰魔鬼”的幕后黑手的出现，令人不寒而栗的真相渐渐浮出水面……",
+			"filmType": {
+				"name": "3D",
+				"value": 2
+			},
+			"nation": "中国大陆 法国",
+			"language": "汉语普通话",
+			"videoId": "XMzg2Mjg4MzUyNA==",
+			"premiereAt": 1546300800,
+			"timeType": 1,
+			"runtime": 90,
+			"grade": "7.8",
+			"item": {
+				"name": "3D",
+				"type": 2
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 4972,
+			"name": "熊出没·狂野大陆",
+			"poster": "https://pic.maizuo.com/usr/movie/44dc08914d508fc47c8267c6ca73f2d8.jpg",
+			"actors": [{
+				"name": "丁亮",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/940b30cea26c667dc0bccc3c2a5f679a.jpg"
+			}],
+			"director": "丁亮",
+			"category": "喜剧|科幻|动画",
+			"synopsis": "什么才是快乐的真谛？一场起源于爱的冒险！狗熊岭附近新开业了一个神奇的“狂野大陆”，在那里，通过基因技术人可以自由变身各种动物，享受无比的自由和快乐。导游事业受挫的光头强，阴差阳错与神秘人乐天和熊二组队，参加乐园里奖金丰厚的比赛，却遭遇了队友乐天的背叛，历尽艰险终于获得冠军之际，却意外发现狂野大陆中出现了肆意袭击他人的混合变身怪兽，同时也明白了队友乐天窃取基因手环的背后的真相。为了守护基因变身技术所承载的美好初衷，光头强与乐天冒险闯入总部，却再次发现在老板汤姆背后隐藏着真正的幕后黑手，他们是否能够获取最终的胜利？神秘人乐天背后又有着怎样的故事…",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "中国大陆",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1579910400,
+			"timeType": 3,
+			"runtime": 90,
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 5029,
+			"name": "变身特工",
+			"poster": "https://pic.maizuo.com/usr/movie/49aab10e72e0868363f1a9179bbd593d.jpg",
+			"actors": [{
+				"name": "尼克·布鲁诺",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/03688998d52372894fd718b6c20a1cb1.jpg"
+			}, {
+				"name": "特洛伊·奎安",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/fd7d2e782ad9f0a55f6043d4a5b0dd3e.jpg"
+			}, {
+				"name": "丘增",
+				"role": "Kimura,(voice)",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/c1019677343aa629e8bbdc919aaa4de7.jpg"
+			}, {
+				"name": "DJ卡拉德",
+				"role": "Ears,(voice)",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/3b8c01dcf99c5f989e1773cb945f749c.jpg"
+			}, {
+				"name": "威尔·史密斯",
+				"role": "兰斯·斯特灵 Lance Sterling",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/00d54b444821c9cce84af3343f1ede37.jpg"
+			}],
+			"director": "尼克·布鲁诺|特洛伊·奎安",
+			"category": "喜剧|动作|科幻|动画|冒险",
+			"synopsis": "超级间谍兰斯·斯特林（威尔·史密斯 配音）和科学家沃尔特·贝克特（汤姆·赫兰德 配音）几乎是完全相反的两个人。兰斯圆滑而又温文尔雅，而沃尔特……完全不是这样。但是沃尔特用他的聪明才智和发明创造弥补了社交能力的不足，他制作了一些令人生畏的小道具以供兰斯用在他的伟大任务中。当事情发生了意想不到的转折时，沃尔特和兰斯突然间不得不以一种全新的方式依赖对方。如果这对搭档学不会作为一个团队共同作战，整个世界就将处于危险之中。",
+			"filmType": {
+				"name": "3D",
+				"value": 2
+			},
+			"nation": "美国",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1578009600,
+			"timeType": 3,
+			"runtime": 102,
+			"grade": "7",
+			"item": {
+				"name": "3D",
+				"type": 2
+			},
+			"isPresale": true,
+			"isSale": false
+		}, {
+			"filmId": 5027,
+			"name": "美丽人生",
+			"poster": "https://pic.maizuo.com/usr/movie/5e534ef9a089ce84533e99b24c5b28e0.jpg",
+			"actors": [{
+				"name": "罗伯托·贝尼尼",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/3d0b47f00ca2325a42d4d3badcff1a55.jpg"
+			}, {
+				"name": "罗伯托·贝尼尼",
+				"role": "圭多 Guido Orefice",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/3d0b47f00ca2325a42d4d3badcff1a55.jpg"
+			}, {
+				"name": "尼可莱塔·布拉斯基",
+				"role": "朵拉 Dora",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/7c7d901bf843bc19b7423f228f6d6f14.jpg"
+			}, {
+				"name": "乔治·坎塔里尼",
+				"role": "乔舒亚 Giosué Orefice",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/8a306f20197fcb3612c7c35acccffe99.jpg"
+			}, {
+				"name": "朱斯蒂诺·杜拉诺",
+				"role": "齐奥 Zio",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/60894a08b9ef54ece1aaaf28df4e8c53.jpg"
+			}],
+			"director": "罗伯托·贝尼尼",
+			"category": "战争|剧情|爱情",
+			"synopsis": "犹太青年圭多（罗伯托·贝尼尼 饰）邂逅美丽的女教师朵拉（尼可莱塔·布拉斯基 饰），他彬彬有礼的向多拉鞠躬：“早安！公主！”历经诸多令人啼笑皆非的周折后，天遂人愿，两人幸福美满的生活在一起。然而好景不长，法西斯政权下，圭多和儿子被强行送往犹太人集中营。多拉虽没有犹太血统，毅然同行，与丈夫儿子分开关押在一个集中营里。聪明乐天的圭多哄骗儿子这只是一场游戏，奖品就是一辆大坦克，儿子快乐、天真的生活在纳粹的阴霾之中。尽管集中营的生活艰苦寂寞，圭多仍然带给他人很多快乐，他还趁机在纳粹的广播里问候妻子：“早安！公主！”法西斯政权即将倾覆，纳粹的集中营很快就要接受最后的清理，圭多编给儿子的游戏该怎么结束？他们一家能否平安的度过这黑暗的年代呢？",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "意大利",
+			"language": "",
+			"videoId": "",
+			"premiereAt": 1578009600,
+			"timeType": 3,
+			"runtime": 116,
+			"grade": "7.6",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": true,
+			"isSale": false
+		}],
+		"total": 48
+	},
+	"msg": "ok"
+}
