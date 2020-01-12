@@ -40,7 +40,9 @@ export default {
                         el: '.swiper-pagination'
                     },
                     //自动滑动
-                    autoplay: true
+                    autoplay: true,
+                    //懒加载
+                    lazy: true
                 })
             })
         })

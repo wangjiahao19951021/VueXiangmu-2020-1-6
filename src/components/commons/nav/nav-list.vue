@@ -3,10 +3,22 @@
         <transition enter-active-class="animated slideInLeft" leave-active-class="animated slideOutLeft">
             <nav class="nav-group" v-if = "isNavShow">
                 <ul>
-                    <li v-for = "nav in navs"
-                        :key = " nav.id " >
-                        <a>{{ nav.title }}</a>
+                    <li 
+                        v-for = "nav in navs"
+                        :key = " nav.id " 
+                        @click = "closeNav"
+                        >
+                        <router-link :to = "{name: nav.name}">{{ nav.title }}</router-link>
+                        <i class="fa fa-angle-right"></i>
                     </li>
+                    <!-- <li 
+                        v-for = "nav in navs"
+                        :key = " nav.id " 
+                        >
+                        <router-link :to = "{name: nav.name}">{{ nav.title }}</router-link>
+                        <i class="fa fa-angle-right"></i>
+                    </li> -->
+
                 </ul>
             </nav>
         </transition>
@@ -23,20 +35,19 @@ export default {
     data () {
         return {
             navs: [
-                {id: 1, title: '首页'},
-                {id: 2, title: '影院'},
-                {id: 3, title: '我的'},
+                {id: 1, title: '首页', name: 'home'},
+                {id: 2, title: '影院', name: 'films'},
+                {id: 3, title: '我的', name: 'mine'},
             ]
         }
     }
 }
 </script>
 <style lang="scss" scoped>
- .nav-list{
+.nav-list{
     position: fixed;
     left: 0;right: 0;top:0;
     z-index: 998;
-    height: 0;
     .mask {
         z-index: 9;
         height: 100vh;
@@ -54,7 +65,7 @@ export default {
         display: block;
         top: 50px;
         // width: 2.67rem;
-        width: 60%;
+        width: 70%;
         bottom: 0;
         left: 0;
         right: 0;
@@ -64,6 +75,9 @@ export default {
         height: 100vh;
         li {
             height: 50px;
+            display: flex;
+            align-items: center;
+            padding-right: 5%;
 
             a {
                 display: flex;

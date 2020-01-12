@@ -1,17 +1,18 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <home></home>
+    <!-- <home></home> -->
+    <router-view></router-view>
   </div>
 </template>
 <script>
 import AppHeader from  "./components/commons/header/app-header"
-import Home from  "./components/pages/home/home"
+// import Home from  "./components/pages/home/home"
 export default {
   name: "app",
   components: {
     AppHeader,  
-    Home
+    // Home
   }
 }
 </script>

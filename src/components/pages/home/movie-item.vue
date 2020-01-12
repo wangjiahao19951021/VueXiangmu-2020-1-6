@@ -1,14 +1,16 @@
 <template>
     <li class="home-movie-item">
         <div class="img-background img-box">
-            <img width="100%" :src = "info.poster" height="100%">
+            <!-- <img width="100%" :src = "info.poster" height="100%"> -->
+            <!-- 使用mint-ui懒加载 -->
+            <img width="100%" v-lazy = "info.poster" height="100%">
         </div>
 
         <div class="info">
             <div class="left">
                 <div class="title">{{ info.name }}</div>
                 <div class="desc" v-if = "type.url_type === 'now-playing'">
-                    {{ info.runtime }}家影院上映    {{ info.premiereAt | watch }}人观看
+                    {{ info.runtime }}家影院上映&nbsp;&nbsp;{{ info.premiereAt | watch }}人观看
                 </div>
             </div>
             <div class="right">
@@ -53,7 +55,7 @@ export default ({
             line-height: 15px;
         }
         .desc {
-            font-size: 8px;
+            font-size: 13px;
             color: #9a9a9a;
             line-height: 15px;
         }

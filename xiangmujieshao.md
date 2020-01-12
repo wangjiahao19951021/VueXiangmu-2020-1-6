@@ -5,3 +5,4 @@
 # cnpm install animate.css -S 引入animate.css做动画处理(nav列表)
 # cnpm install swiper -S 引入swiper（轮播图）
 # cnpm install axios -S 引入axios
+# cnpm install mint-ui -S引入组件Mint-Ui

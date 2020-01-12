@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'
-// import router from './router'
+import router from './router'
 // import store from './store'
 
 //阻止了提示
@@ -21,13 +21,31 @@ Vue.prototype.$http = axios
 import "./modules/filter"
 
 
+//mint-ui
+//按需引入
+// import { Lazyload, InfiniteScroll  } from 'mint-ui';
+// Vue.use(Lazyload);
+// Vue.use(InfiniteScroll);
+
+
+//mint-ui
+//引入全部组件
+import Mint from 'mint-ui';
+Vue.use(Mint);
 
 
 
 
-
+// new Vue({
+//   el: '#app',
+//   components: { App },
+//   router, //使用router
+//   store,
+//   template: '<App/>'
+// })
+// VUE推荐在绝大多数情况下使用template来创建我们的HTML。然而在一些场景中，我们真的需要JavaScript的完全编程的能力，这就是render函数，它比template更接近编译器。
 new Vue({
-  // router,
+  router,
   // store,
   render: h => h(App)
 }).$mount('#app')

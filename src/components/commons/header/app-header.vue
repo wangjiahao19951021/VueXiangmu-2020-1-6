@@ -21,6 +21,12 @@
 <script>
 import NavList from  "../nav/nav-list"
 
+//组件间通信 bus  与 route index之间的通信
+// import bus from "../../../modules/bus"
+
+//引入路由
+import router from "../../../router/index"
+
 export default {
     name: "AppHeader",
     components: {
@@ -36,6 +42,15 @@ export default {
             //这里的方法传给子组件 是因为isNavShow数据是父组件的
             this.isNavShow = false
         }  
+    },
+    created ()  {
+        // bus.$on("close-nav", this.closeNav)
+        //局部路由钩子
+        router.beforeEach((to, from ,next) => {
+            //关闭导航
+            // this.closeNav()
+            next()
+        })
     }
 }
 </script>
