@@ -5,6 +5,7 @@ import Home from '../components/pages/home/home'
 import NotFound from '../components/pages/not-found/not-found'
 import Films from "../components/pages/films/films"
 import Mine from "../components/pages/mine/mine"
+import Detail from "../components/pages/detail/detail"
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,7 @@ const routes = [
   {path: '/',name: 'home',component: Home},
   {path: '/home', name: 'home', component: Home},
   {path: '/films', name: 'films', component: Films},
+  {path: '/detail', name: 'detail', component: Detail},
   {path: '/mine', name: 'mine', component: Mine},
   {path: '/not-found', name: 'not-found', component: NotFound},
   {path: '**', redirect: '/not-found'}
