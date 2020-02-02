@@ -22,7 +22,7 @@ export default {
         return {
             types: [
                 {id:1, url_type: 'now-playing', title:　'热映', count: 10},
-                {id:2, url_type: 'coming-soon', title:　'即将上映', count: 10}
+                {id:2, url_type: 'coming-soon', title:　'即将上映', count: 10},
             ]
         }
     }

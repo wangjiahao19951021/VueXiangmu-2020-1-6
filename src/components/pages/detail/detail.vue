@@ -3,7 +3,8 @@
         <div class="img-background img-box">
             <img width="100%"  v-lazy = "film.poster">
         </div>
-        {{film.name}}
+        {{film.name}} <br/>
+        {{ film.synopsis }}
     </div>
 </template>
 <script>
@@ -18,6 +19,7 @@ export default {
     },
     methods: {
         getItem () {
+            //这里可以根据请求的结果跳转404,防止地址栏更改信息显示错误
             let id  = this.id
             this.$http.get("/static/json/movie_item.json", {
                 params: {
@@ -32,7 +34,6 @@ export default {
     created () {
         this.getItem();
         bus.$emit('change-title',this.$route.query.name)
-
     }
 }
 </script>

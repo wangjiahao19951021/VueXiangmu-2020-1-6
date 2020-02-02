@@ -7,6 +7,8 @@
 <script>
 import FilmNav from "./film-nav"
 import FilmBox from "./film-box"
+//这里引用小天使
+import bus from "../../../modules/bus"
 export default {
     name: "Films",
     components: {
@@ -17,13 +19,23 @@ export default {
         return {
             //导航默认s为now-playing
             type: 'now-playing'
+            // type: "coming-soon"
         }
     },
     methods: {
         changeType(type) {
             this.type = type
         }
-    }
+    },
+    created () {
+        //如果从首页进来的话可能会与滑动加载发生错误，ajax可能会请求多次出现错误
+        document.body.scrollTop = document.documentElement.scrollTop=0
+
+        bus.$on("change-types1", (e) => {
+            console.log(e)
+            this.type = e
+        })
+    }   
 }
 </script>
 <style lang="scss" scoped>
