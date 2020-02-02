@@ -1,5 +1,8 @@
 <template>
-      <div class="film-item">
+    <router-link class="film-item"
+        tag = "div"
+        :to = "{name: 'detail', params: {id: film.filmId}, query: {name: film.name}}"
+    >
       <div class="left img-background">
           <!-- <img width="100%" :src = "film.poster"> -->
           <!-- 使用mint-ui懒加载 -->
@@ -24,7 +27,7 @@
                 <div class="grade">{{film.grade}}</div>
             </template> 
       </div>
-  </div>
+    </router-link>
 </template>
 <script>
 export default {

@@ -1,0 +1,41 @@
+{
+	"status": 0,
+	"data": {
+		"film": {
+			"filmId": 4837,
+			"name": "囧妈",
+			"poster": "https://pic.maizuo.com/usr/movie/37c8cc5867835c2de841d9c193f736f3.jpg",
+			"actors": [{
+				"name": "徐峥",
+				"role": "导演",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/548caa78658ed93476dacee6faaefd1d.jpg"
+			}, {
+				"name": "徐峥",
+				"role": "演员",
+				"avatarAddress": "https://pic.maizuo.com/usr/movie/548caa78658ed93476dacee6faaefd1d.jpg"
+			}],
+			"director": "徐峥",
+			"category": "剧情|喜剧",
+			"synopsis": "讲述了小老板伊万缠身于商业纠纷，却意外同母亲坐上了开往俄罗斯的火车。在旅途中，他和母亲发生激烈冲突，同时还要和竞争对手斗智斗勇。为了最终抵达莫斯科，他不得不和母亲共同克服难关，并面对家庭生活中一直所逃避的问题。",
+			"filmType": {
+				"name": "2D",
+				"value": 1
+			},
+			"nation": "中国大陆",
+			"language": "汉语普通话",
+			"videoId": "XNDAyNzc1OTg3Mg==",
+			"premiereAt": 1579910400,
+			"timeType": 3,
+			"runtime": 90,
+			"photos": ["https://pic.maizuo.com/usr/100004837/3196673a0a6dc2b0031cbfc3b0d1af54.jpg", "https://pic.maizuo.com/usr/100004837/3bef8922f5a18609c4831f82cf2b193d.jpg", "https://pic.maizuo.com/usr/100004837/7bca5c172d34838a61abe7a85b56c64b.jpg"],
+			"grade": "7.8",
+			"item": {
+				"name": "2D",
+				"type": 1
+			},
+			"isPresale": false,
+			"isSale": false
+		}
+	},
+	"msg": "ok"
+}

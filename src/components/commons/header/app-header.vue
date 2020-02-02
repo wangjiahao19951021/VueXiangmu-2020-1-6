@@ -5,7 +5,7 @@
                 <div class="title-icon" @click = "isNavShow = !isNavShow">
                     <i class="fa fa-bars"></i>
                 </div>
-                <div class="title">电影</div>
+                <div class="title">{{ title }}</div>
             </div>
             <div class="right">
                 <div class="city">北京</div>
@@ -26,6 +26,8 @@ import NavList from  "../nav/nav-list"
 
 //引入路由
 import router from "../../../router/index"
+//引入小天使
+import bus from "../../../modules/bus"
 
 export default {
     name: "AppHeader",
@@ -35,6 +37,7 @@ export default {
     data () {
         return {
             isNavShow: false,
+            title: "首页"
         }
     },
     methods: {
@@ -45,12 +48,36 @@ export default {
     },
     created ()  {
         // bus.$on("close-nav", this.closeNav)
+        //这里配置路由跳转时名称的切换
         //局部路由钩子
         router.beforeEach((to, from ,next) => {
+            //路由切换时名字更改
+            // console.log(to)
+            // console.log(from)
+            let title = ""
+            switch (to.name) {
+             case 'home' : title = "首页"; break;
+             case 'films' : title = "影院"; break;
+             case 'mine' : title = "我的"; break;
+            //  case 'not-found' : title = "404"; break;
+            //   case 'detail' : title = to.query.name; break;
+            //  default : title = "404";
+            }
+            this.title = title
+            // console.log(this.title)
             //关闭导航
             // this.closeNav()
             next()
         })
+        //这里是详情页的title
+        bus.$on("change-title", (title) => {
+            this.title = title
+        })
+        // console.log(this.$route.name)
+        if (this.$route.name == "not-found") {
+            this.title = "404"
+        }
+
     }
 }
 </script>

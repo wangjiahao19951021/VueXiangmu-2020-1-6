@@ -11,9 +11,9 @@ Vue.use(VueRouter)
 
 const routes = [
   {path: '/',name: 'home',component: Home},
-  {path: '/home', name: 'home', component: Home},
+  {path: '/home', name: 'home1', component: Home},
   {path: '/films', name: 'films', component: Films},
-  {path: '/detail', name: 'detail', component: Detail},
+  {path: '/detail/:id', name: 'detail', component: Detail, props: true}, //detail页面通过props接收参数
   {path: '/mine', name: 'mine', component: Mine},
   {path: '/not-found', name: 'not-found', component: NotFound},
   {path: '**', redirect: '/not-found'}

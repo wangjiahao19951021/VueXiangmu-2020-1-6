@@ -1,5 +1,8 @@
 <template>
-    <li class="home-movie-item">
+    <router-link class="home-movie-item"
+        tag = "li"
+        :to = "{name: 'detail', params: {id: info.filmId}, query: {name: info.name}}"
+    >
         <div class="img-background img-box">
             <!-- <img width="100%" :src = "info.poster" height="100%"> -->
             <!-- 使用mint-ui懒加载 -->
@@ -18,7 +21,7 @@
                 <div class="time" v-else>  {{ info.premiereAt | premiere }}上映 </div>
             </div>
         </div>
-    </li>
+    </router-link>
 </template>
 <script>
 export default ({
