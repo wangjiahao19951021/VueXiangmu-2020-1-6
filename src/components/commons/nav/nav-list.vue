@@ -37,7 +37,9 @@ export default {
             navs: [
                 {id: 1, title: '首页', name: 'home'},
                 {id: 2, title: '影院', name: 'films'},
-                {id: 3, title: '我的', name: 'mine'},
+                {id: 3, title: '商品', name: 'goods'},
+                {id: 4, title: '购物车', name: 'car'},
+                {id: 5, title: '我的', name: 'mine'},
                 // {id: 4, title: '404', name: 'not-found'},
             ]
         }

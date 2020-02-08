@@ -6,6 +6,8 @@ import NotFound from '../components/pages/not-found/not-found'
 import Films from "../components/pages/films/films"
 import Mine from "../components/pages/mine/mine"
 import Detail from "../components/pages/detail/detail"
+import Goods from "../components/pages/goods/goods"
+import Car from "../components/pages/car/car"
 
 Vue.use(VueRouter)
 
@@ -15,6 +17,8 @@ const routes = [
   {path: '/films', name: 'films', component: Films},
   {path: '/detail/:id', name: 'detail', component: Detail, props: true}, //detail页面通过props接收参数
   {path: '/mine', name: 'mine', component: Mine},
+  {path: '/goods', name: 'goods', component: Goods},
+  {path: '/car', name: 'car', component: Car},
   {path: '/not-found', name: 'not-found', component: NotFound},
   {path: '**', redirect: '/not-found'}
 ]

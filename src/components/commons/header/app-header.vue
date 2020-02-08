@@ -59,6 +59,8 @@ export default {
              case 'home' : title = "首页"; break;
              case 'films' : title = "影院"; break;
              case 'mine' : title = "我的"; break;
+             case 'car' : title = "购物车"; break;
+             case 'goods' : title = "商品"; break;
             //  case 'not-found' : title = "404"; break;
             //   case 'detail' : title = to.query.name; break;
             //  default : title = "404";

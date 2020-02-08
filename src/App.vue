@@ -13,6 +13,11 @@ export default {
   components: {
     AppHeader,  
     // Home
+  },
+  created () {
+    //这里获取购物车的数据
+    //dispatch调用actions  commit调用mutation
+    this.$store.dispatch('initCars')
   }
 }
 </script>
