@@ -26,7 +26,7 @@ const routes = [
 const router = new VueRouter({
   routes,
   //去掉地址中的哈希#
-  mode:"history",
+  // mode:"history",
 })
 
 //组件间通信 bus 与app-header组件通信 

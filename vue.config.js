@@ -2,6 +2,10 @@
 module.exports = {
     //阻止下eslint,否则项目中swiper会出错
     lintOnSave: false,
+        publicPath: "./",
+        outputDir: "dist",
+        assetsDir:"static",
+        indexPath:'index.html',
     // 端口等设置
     devServer: {
         // https: true,
